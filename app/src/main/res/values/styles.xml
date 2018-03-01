@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DetailLabel">
+        <item name="android:paddingLeft">@dimen/details_padding_left</item>
+        <item name="android:paddingRight">@dimen/details_padding</item>
+        <item name="android:paddingTop">@dimen/details_padding</item>
+        <item name="android:paddingBottom">@dimen/details_padding</item>
+        <item name="android:layout_margin">@dimen/details_padding</item>
+        <item name="android:textSize">@dimen/details_label_text</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DetailText">
+        <item name="android:paddingLeft">@dimen/details_padding_left</item>
+        <item name="android:paddingRight">@dimen/details_padding</item>
+        <item name="android:paddingTop">@dimen/details_padding</item>
+        <item name="android:paddingBottom">@dimen/details_padding</item>
+        <item name="android:layout_margin">@dimen/details_padding</item>
+        <item name="android:textSize">@dimen/details_text</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
+
+
+</resources>
